@@ -8,12 +8,10 @@ public class Cpf {
 
     private static boolean isCpf(String cpf){
 
-
-
         if (cpf.length() != 11){
-            System.out.println("Cpf inválido - Mais de 11 dígitos");
+            return false;
         }
-
+        return true;
     }
 
 
