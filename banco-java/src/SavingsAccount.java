@@ -1,4 +1,5 @@
-public class SavingsAccount {
-    private int accountNumber;
-    private double balance;
+public class SavingsAccount extends Account {
+
+    public void Account(){
+    }
 }

@@ -10,7 +10,7 @@ public class Main {
         System.out.println(validationEmail);
 
 
-        CheckingAccount account = new CheckingAccount();
+        Account account = new SavingsAccount();
         System.out.println("Account number: " + account.getAccountNumber());
         System.out.println("Current balance: " + account.getCurrentBalance());
         account.deposit(1000);
